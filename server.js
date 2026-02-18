@@ -1,4 +1,6 @@
 'use strict';
+const p5SerialServer = require('./includes/p5.serialserver/src/p5.serialserver.js');
+
 let online = false; // set online
 let debugStats = false; // report stats
 let developBranch = false; // dev mode (false for production)
@@ -709,3 +711,9 @@ const listener = server.listen(port, function() {
 		console.log('P5 is LIVE! Running on port: ' + listener.address().port);
 	}
 });
+
+
+
+
+p5SerialServer.start(8081);
+console.log('p5.serialserver is running!');

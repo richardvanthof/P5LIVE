@@ -370,8 +370,7 @@ Add this snippet to the top of your sketch, placing one path per array item (or 
 
 ```javascript
 let libs = [
-	"",
-	""
+	"./includes/js/serial.js"
 ];
 ```
 #### BUILT-IN LIBRARIES
