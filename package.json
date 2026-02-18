@@ -35,6 +35,7 @@
     "http-proxy": "^1.18.1",
     "node-osc": "^4.1.9",
     "pem": "^1.14.8",
+    "serialport": "^13.0.0",
     "socket.io": "^2.5.1"
   }
 }

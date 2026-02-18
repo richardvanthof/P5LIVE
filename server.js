@@ -1,5 +1,5 @@
 'use strict';
-const p5SerialServer = require('./includes/p5.serialserver/src/p5.serialserver.js');
+const p5SerialServer = require('./includes/serialserver/src/p5.serialserver.js');
 
 let online = false; // set online
 let debugStats = false; // report stats
